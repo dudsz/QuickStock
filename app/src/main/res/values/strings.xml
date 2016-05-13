@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuickStock</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnSearch">Search</string>
+    <string name="hint_stock">Enter stock to search for</string>
+    <string name="search_find">Find stocks</string>
+</resources>
