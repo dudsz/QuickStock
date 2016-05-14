@@ -2,32 +2,29 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     >
 
     <TextView
         android:id="@+id/sid"
-        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <TextView
         android:id="@+id/stockName"
-        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="6dip"
-        android:paddingLeft="6dip"
-        android:paddingStart="6dip"
-        android:paddingEnd="6dip"
         android:textSize="17sp"
         android:textStyle="bold" />
     <TextView
         android:id="@+id/sPrice"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        />
-    <TextView
-        android:id="@+id/sYH"
-        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:gravity="end"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
 
